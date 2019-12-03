@@ -2,7 +2,16 @@
 // Coding practical questions
 
 // 1. Write a function that takes a number as an argument and decides if the number is evenly divisble by three or not. Use the test cases 15, 0, 385, -7. Expected output: "15 is divisible by three", "0 is divisible by three", "385 is not divisble by three", "-7 is not divisble by three".
-
+var array = [15, 0, 385, -7];
+function div3(array){
+    for (let i=0; i< array.length; i++){
+        if (i % 3 === 0){
+             return i + " is divisable by three.";
+        }else{
+            return i + " is not divisable by three.";
+        }
+    }
+console.log(15)
 
 
 // 2. Create an object called helloMe. Include your firstName, lastName and TWO OTHER properties of you. Add a method to your object that will return a sentence using the object properties to describe you.
