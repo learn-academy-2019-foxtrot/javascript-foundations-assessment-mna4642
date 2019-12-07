@@ -14,7 +14,7 @@ logIt()
 
 
 1a. Look at this Javascript function and try to predict what the console show.
-
+The console shows the text 'outside'
 
 
 1b. Test the function. Explain why the function returned what it did.
